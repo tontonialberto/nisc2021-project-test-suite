@@ -3,11 +3,16 @@ This project has been developed as the final project for NISC2021, a summer camp
 
 ![Project showcase](/assets/grid.jpg)
 
-## Authors
-* Alberto Tontoni
-* Angelo Barletta
-* Daiana Cipollaro
-* Claudio Spasiano
+# Table of Contents
+- [Target](#target)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Supported commands](#supported-commands)
+- [Software required](#software-required)
+- [Hardware required](#hardware-required)
+- [Connection Scheme](#connection-scheme)
+- [Code architecture](#code-architecture)
+- [Authors](#authors)
 
 ## Target
 The demo runs on an STM32 Nucleo64-F401RE board.
@@ -68,3 +73,9 @@ These variables are set inside the shell module and read from system threads.
 whereas the other threads can only set/get that variable.
 * For example, there is a specialized thread whose only aim is to write the OLED display according to which command
 has to be executed.
+
+## Authors
+* Angelo Barletta
+* Daiana Cipollaro
+* Claudio Spasiano
+* Alberto Tontoni
