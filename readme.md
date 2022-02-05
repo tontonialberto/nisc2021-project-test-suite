@@ -20,7 +20,7 @@ The demo runs on an STM32 Nucleo64-F401RE board.
 ## Features
 Once connected to your pc, the Nucleo Board hosts a shell interface from serial port
 whose commands execution manipulates both input and output hardware devices,
-according on the commands' parameters inserted by the user.
+according on the commands' parameters inserted by the user. The main purpose Is to check that your hardware devices operate properly.
 
 ## How to use
 Connect Nucleo Board to a node via USB serial port, baud rate is 38400.
