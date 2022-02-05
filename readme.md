@@ -10,7 +10,7 @@ This project has been developed as the final project for NISC2021, a summer camp
 * Claudio Spasiano
 
 ## Target
-The demo runs on an STM32 Nucleo64-F401RE board board.
+The demo runs on an STM32 Nucleo64-F401RE board.
 
 ## Features
 Once connected to your pc, the Nucleo Board hosts a shell interface from serial port
